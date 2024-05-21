@@ -1,5 +1,5 @@
 # QG4L
-Quasi Geostrophic 4-layer toy model
+Quasi Geostrophic 4-layer toy model.
 
 Code developed for the simulations presented in the paper "Semi-analytical approach to study the role of abyssal stratification in the propagation of potential vorticity in a four-layer ocean basin" submitted to OS (Ocean Science). The code describes potential vorticity advection using Quasi Geostrophic (QG) formalism [1, 2, 3], with a 4-layer scheme based on in-situ observation (data are available at http://doi.org/10.5281/zenodo.7871735) [4]. The model equations are derived with a z-coordinate scheme for the derivative discretization instead of the density coordinate as is done typically in QG layered models, to account for the observed density jumps [5, 6].
 
