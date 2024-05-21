@@ -4,19 +4,19 @@ Quasi Geostrophic 4-layer toy model
 Code developed for the simulations presented in the paper "Semi-analytical approach to study the role of abyssal stratification in the propagation of potential vorticity in a four-layer ocean basin" submitted to OS (Ocean Science). The code describes potential vorticity advection using Quasi Geostrophic (QG) formalism [1, 2, 3], with a 4-layer scheme based on in-situ observation (data are available at http://doi.org/10.5281/zenodo.7871735) [4]. The model equations are derived with a z-coordinate scheme for the derivative discretization instead of the density coordinate as is done typically in QG layered models, to account for the observed density jumps [5, 6].
 
 Contents:
--QG4L.m			main 
--QG4L_evolution.m	core function
--QGeqs.m			QG equations 
--inverse.m		Gauss-Schiedel for laplacian inversion
--arakawa.m		Arakawa scheme for Jacobian
--laplaciancr.m		Laplacian discretization
--diricheletbc.m		Boundary Condition
--periodic.m		Boundary Condition
--periodicx.m		Boundary Condition
+- QG4L.m			main 
+- QG4L_evolution.m	core function
+- QGeqs.m			QG equations 
+- inverse.m		Gauss-Schiedel for laplacian inversion
+- arakawa.m		Arakawa scheme for Jacobian
+- laplaciancr.m		Laplacian discretization
+- diricheletbc.m		Boundary Condition
+- periodic.m		Boundary Condition
+- periodicx.m		Boundary Condition
 
 Needed for running as it is:
--TEOS-10 functions http://www.teos-10.org/
--Crameri's Scientific colour maps https://www.fabiocrameri.ch/colourmaps/
+- TEOS-10 functions http://www.teos-10.org/
+- Crameri's Scientific colour maps https://www.fabiocrameri.ch/colourmaps/
 
 References:
 [1] Pedlosky, J. (2013). Geophysical fluid dynamics. Springer Science & Business Media. 
